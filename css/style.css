@@ -172,6 +172,13 @@ body {
   opacity: 1;
 }
 
+/* Hide toolbar on mobile */
+@media (max-width: 768px) {
+  .top-bar {
+    display: none;
+  }
+}
+
 /* Experience */
 .experience-section h2 {
   margin-bottom: 2rem;
